@@ -3,6 +3,7 @@ import Twitter from "../assets/images/Twitter.png";
 import Discord from "../assets/images/Discord.png";
 import Telegram from "../assets/images/Telegram.png";
 import Medium from "../assets/images/Medium.png";
+import BgVideo from "../assets/images/bg.mp4";
 
 const Box = styled.div`
     display: flex;
@@ -11,6 +12,36 @@ const Box = styled.div`
     flex-direction: column;
     width: 100%;
     height: 100%;
+    .inner{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    video{
+        z-index: 0;
+        width: 100%;
+        height: auto;
+        
+    }
+`
+
+const BgBox = styled.div`
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    border-radius: 10px;
+    
 `
 
 const TitleBox = styled.div`
@@ -20,6 +51,7 @@ const TitleBox = styled.div`
     color: #46a96a;
     text-transform: capitalize;
     font-family: 'Comfortaa', sans-serif;
+    text-align: center;
 `
 
 const TipsBox = styled.div`
@@ -71,17 +103,27 @@ const BtnGroup = styled.div`
 
 export default function Home(){
     return <Box>
-        <TitleBox>REI Wallet </TitleBox>
-        <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing your web3 everything, all in one place.</TipsBox>
-        <FlexBox>
-            <img src={Twitter} alt=""/>
-            <img src={Discord} alt=""/>
-            <img src={Telegram} alt=""/>
-            <img src={Medium} alt=""/>
-        </FlexBox>
-        <BtnGroup>
-            <button className="start">Get Started</button>
-            <button className="download">Download</button>
-        </BtnGroup>
+
+        <video autoPlay muted loop id="myVideo">
+            <source src={BgVideo} type="video/mp4"/>
+        </video>
+        <div className="inner">
+            <BgBox>
+                <TitleBox>REI Wallet </TitleBox>
+                <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing your web3
+                    everything, all in one place.</TipsBox>
+                <FlexBox>
+                    <img src={Twitter} alt=""/>
+                    <img src={Discord} alt=""/>
+                    <img src={Telegram} alt=""/>
+                    <img src={Medium} alt=""/>
+                </FlexBox>
+                <BtnGroup>
+                    <button className="start">Get Started</button>
+                    <button className="download">Download</button>
+                </BtnGroup>
+            </BgBox>
+
+        </div>
     </Box>
 }
