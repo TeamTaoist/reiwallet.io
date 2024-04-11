@@ -12,7 +12,7 @@ const AllBox = styled.div`
         flex-grow: 1;
         width: 100%;
         height: 100%;
-        background: rgba(255,255,255,0.5);
+        background: rgba(255,255,255,0.6);
         backdrop-filter: blur(10px);
         display: flex;
         align-items: center;

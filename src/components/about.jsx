@@ -39,6 +39,7 @@ const UlBox = styled.div`
         padding: 20px;
         display: flex;
         align-items: center;
+        border-radius: 5px;
         gap: 30px;
         font-family: 'Poppins', sans-serif;
         margin-bottom: 30px;
