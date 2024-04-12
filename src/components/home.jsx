@@ -4,6 +4,7 @@ import Discord from "../assets/images/Discord.png";
 import Telegram from "../assets/images/Telegram.png";
 import Medium from "../assets/images/Medium.png";
 import BgVideo from "../assets/images/bg.mp4";
+import BgImg from "../assets/images/bg-jpg.png";
 
 const Box = styled.div`
     display: flex;
@@ -12,6 +13,7 @@ const Box = styled.div`
     flex-direction: column;
     width: 100%;
     height: 100%;
+    overflow:hidden ;
     .inner{
         align-items: center;
         justify-content: center;
@@ -27,8 +29,8 @@ const Box = styled.div`
     video{
         z-index: 0;
         width: 100%;
-        height: auto;
-        
+        height: 100%;
+        object-fit: fill;
     }
 `
 
@@ -104,7 +106,7 @@ const BtnGroup = styled.div`
 export default function Home(){
     return <Box>
 
-        <video autoPlay muted loop id="myVideo">
+        <video autoPlay muted loop poster={BgImg} id="myVideo">
             <source src={BgVideo} type="video/mp4"/>
         </video>
         <div className="inner">
