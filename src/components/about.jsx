@@ -65,15 +65,15 @@ export default function About(){
             <img src={AboutImg} alt=""/>
         </LftBox>
         <RhtBox>
-            <TitleBox>Our Advantage</TitleBox>
+            <TitleBox>Our Advantages</TitleBox>
             <UlBox>
                 <dl>
                     <dt>
                         <img src={Icon1} alt=""/>
                     </dt>
                     <dd>
-                        <div className="title">Buy, store, send and swap tokens</div>
-                        <div className="desc">Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.</div>
+                        <div className="title">Manage xUDT and DOBs</div>
+                        <div className="desc">As a browser extension, REI Wallet secures your login, manages your xUDT and trade your DOBs.</div>
                     </dd>
                 </dl>
                 <dl>
@@ -81,8 +81,8 @@ export default function About(){
                         <img src={Icon2} alt=""/>
                     </dt>
                     <dd>
-                        <div className="title">Explore blockchain apps</div>
-                        <div className="desc">MetaMask provides the simplest yet most secure way to connect to blockchain-based applications. You are always in control when interacting on the new decentralized web.</div>
+                        <div className="title">Native Support</div>
+                        <div className="desc">REI Wallet is the only native Nervos CKB Chrome Extension wallet currently. It's your choice!</div>
                     </dd>
                 </dl>
                 <dl>
@@ -90,8 +90,8 @@ export default function About(){
                         <img src={Icon3} alt=""/>
                     </dt>
                     <dd>
-                        <div className="title">Own your data</div>
-                        <div className="desc">MetaMask generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private.</div>
+                        <div className="title">Explore the Bitcoin L2 world</div>
+                        <div className="desc">RGB++ Protocol is integrated, all the UTXO chains will be supported as Bitcoin Layer2.</div>
                     </dd>
                 </dl>
             </UlBox>

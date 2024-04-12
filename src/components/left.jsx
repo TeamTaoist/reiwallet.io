@@ -42,7 +42,7 @@ export default function Left(){
                 <li>
                 <a className="pt-trigger" data-animation="61" data-goto="3" href="#services">
                     <i className="flaticon-013-book"></i>
-                        <span>Support</span></a>
+                        <span>How To</span></a>
                 </li>
                 {/*<li>*/}
                 {/*    <a className="pt-trigger" data-animation="59" data-goto="4" href="#portfolio">*/}

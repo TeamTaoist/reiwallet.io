@@ -212,13 +212,13 @@ export default function Documents() {
         <Box>
             <LftBox>
                 <div className="title">
-                    <div className="top">Integrate your dapp with the</div>
-                    MetaMask wallet
+                    <div className="top">Integrate dapps with the</div>
+                    REI Wallet
                 </div>
-                <div className="btm">Your dapp can use the Wallet API to request users' Ethereum accounts, read data
+                <div className="btm">Your dapp can use the API to request users' CKB wallets, read data
                     from connected
                     blockchains, suggest that the user sign messages and transactions, and perform other functions on
-                    MetaMask from multiple dapp platforms.
+                    REI Wallet from multiple dapp platforms.
                 </div>
                 <button>Let's start  &gt;</button>
             </LftBox>
@@ -226,7 +226,7 @@ export default function Documents() {
                 <li>
                     <div>
                         <div className="titleBox">Wallet quickstart</div>
-                        <div className="desc">Get started quickly by connecting your React dapp to MetaMask and other wallets in your
+                        <div className="desc">Get started quickly by connecting your React dapp to REI Wallet in your
                             users'
                             browsers.
                         </div>
@@ -240,7 +240,7 @@ export default function Documents() {
                     <div>
                         <div className="titleBox">Wallet tutorials</div>
                         <div className="desc">Follow the step-by-step tutorials to create a simple React dapp and integrate it with
-                            MetaMask.
+                            REI Wallet.
                         </div>
                     </div>
                     <div className="iconBox">
@@ -251,8 +251,7 @@ export default function Documents() {
                 <li>
                     <div>
                         <div className="titleBox">Wallet API</div>
-                        <div className="desc">Use the JSON-RPC methods of MetaMask's Wallet API to interact with your users' Ethereum
-                            accounts.
+                        <div className="desc">Use the JSON-RPC methods of REI Wallet API to interact with your users.
                         </div>
                     </div>
                     <div className="iconBox">

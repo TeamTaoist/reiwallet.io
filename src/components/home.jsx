@@ -112,8 +112,8 @@ export default function Home(){
         <div className="inner">
             <BgBox>
                 <TitleBox>REI Wallet </TitleBox>
-                <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing your web3
-                    everything, all in one place.</TipsBox>
+                <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing all your CKB assets
+                    in one place.</TipsBox>
                 <FlexBox>
                     <img src={Twitter} alt=""/>
                     <img src={Discord} alt=""/>
@@ -122,7 +122,7 @@ export default function Home(){
                 </FlexBox>
                 <BtnGroup>
                     <button className="start">Get Started</button>
-                    <button className="download">Download</button>
+                    <button className="download">Download Chrome Extension</button>
                 </BtnGroup>
             </BgBox>
 
