@@ -225,7 +225,7 @@ export default function Documents() {
             <UlBox>
                 <li>
                     <div>
-                        <div className="titleBox">Wallet quickstart</div>
+                        <div className="titleBox">Quickstart</div>
                         <div className="desc">Get started quickly by connecting your React dapp to REI Wallet in your
                             users'
                             browsers.
@@ -238,7 +238,7 @@ export default function Documents() {
                 </li>
                 <li>
                     <div>
-                        <div className="titleBox">Wallet tutorials</div>
+                        <div className="titleBox">Tutorials</div>
                         <div className="desc">Follow the step-by-step tutorials to create a simple React dapp and integrate it with
                             REI Wallet.
                         </div>
@@ -250,7 +250,7 @@ export default function Documents() {
                 </li>
                 <li>
                     <div>
-                        <div className="titleBox">Wallet API</div>
+                        <div className="titleBox">API</div>
                         <div className="desc">Use the JSON-RPC methods of REI Wallet API to interact with your users.
                         </div>
                     </div>
