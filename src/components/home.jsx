@@ -85,7 +85,7 @@ const BtnGroup = styled.div`
     justify-content: center;
     gap: 10px;
     margin-top: 60px;
-    button{
+    button,a{
         padding: 20px 40px;
         border-radius: 40px;
         border: 0;
@@ -122,7 +122,7 @@ export default function Home(){
                 </FlexBox>
                 <BtnGroup>
                     <button className="start">Get Started</button>
-                    <button className="download">Download Chrome Extension</button>
+                    <a className="download" href="https://chromewebstore.google.com/detail/rei-wallet/jacbgghlojlggfgljfhhlcddicacmbek" target="_blank">Download Chrome Extension</a>
                 </BtnGroup>
             </BgBox>
 
