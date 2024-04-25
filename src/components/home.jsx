@@ -78,6 +78,11 @@ const FlexBox = styled.div`
         width: 25px;
         cursor: pointer;
     }
+    a{
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
 `
 const BtnGroup = styled.div`
     display: flex;
@@ -115,10 +120,10 @@ export default function Home(){
                 <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing all your CKB assets
                     in one place.</TipsBox>
                 <FlexBox>
-                    <img src={Twitter} alt=""/>
-                    <img src={Discord} alt=""/>
-                    <img src={Telegram} alt=""/>
-                    <img src={Medium} alt=""/>
+                    <a href="#home"><img src={Twitter} alt=""/></a>
+                    <a href="#home"><img src={Discord} alt=""/></a>
+                    <a href="https://t.me/reiwallet" target="_blank"><img src={Telegram} alt=""/></a>
+                    <a href="#home"><img src={Medium} alt=""/></a>
                 </FlexBox>
                 <BtnGroup>
                     <button className="start">Get Started</button>
