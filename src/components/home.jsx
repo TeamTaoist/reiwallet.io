@@ -41,6 +41,7 @@ const BgBox = styled.div`
     display: flex;
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     padding: 50px;
     border-radius: 10px;
     
