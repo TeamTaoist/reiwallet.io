@@ -3,8 +3,10 @@ import Twitter from "../assets/images/Twitter.png";
 import Discord from "../assets/images/Discord.png";
 import Telegram from "../assets/images/Telegram.png";
 import Medium from "../assets/images/Medium.png";
-import BgVideo from "../assets/images/bg.mp4";
+// import BgVideo from "../assets/images/bg.mp4";
 import BgImg from "../assets/images/bg-jpg.png";
+import React, {  lazy } from 'react';
+const BgVideo = lazy(() => import('../assets/images/bg.mp4'));
 
 const Box = styled.div`
     display: flex;
@@ -111,10 +113,10 @@ const BtnGroup = styled.div`
 
 export default function Home(){
     return <Box>
+            <video autoPlay muted loop poster={BgImg} id="myVideo" preload="none">
+                <source src={BgVideo} type="video/mp4"/>
+            </video>
 
-        <video autoPlay muted loop poster={BgImg} id="myVideo">
-            <source src={BgVideo} type="video/mp4"/>
-        </video>
         <div className="inner">
             <BgBox>
                 <TitleBox>REI Wallet </TitleBox>

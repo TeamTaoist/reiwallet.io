@@ -197,6 +197,16 @@ const UlBox = styled.ul`
         text-align: center;
         margin-top: 30px;
     }
+    .flexLine{
+        display: flex;
+        align-items: flex-end;
+        gap:20px;
+        a{
+            margin-bottom: 10px;
+            cursor: pointer;
+            text-transform: capitalize;
+        }
+    }
 `
 
 const FlexBox = styled.ul`
@@ -232,9 +242,13 @@ export default function Documents() {
                             browsers.
                         </div>
                     </div>
-                    <div className="iconBox">
-                        <i className="flaticon-081-electricity icon"></i>
+                    <div className="flexLine">
+                        <div className="iconBox">
+                            <i className="flaticon-081-electricity icon"></i>
+                        </div>
+                        <a href="https://demo-app.reiwallet.io/" target="_blank" rel="noreferrer">demo-app.reiwallet.io</a>
                     </div>
+
 
                 </li>
                 <li>
