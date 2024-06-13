@@ -91,7 +91,7 @@ const BtnGroup = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     margin-top: 60px;
     button,a{
         padding: 20px 40px;
@@ -129,8 +129,9 @@ export default function Home(){
                     <a href="#home"><img src={Medium} alt=""/></a>
                 </FlexBox>
                 <BtnGroup>
-                    <button className="start">Get Started</button>
-                    <a className="download" href="https://chromewebstore.google.com/detail/rei-wallet/jacbgghlojlggfgljfhhlcddicacmbek" target="_blank">Download Chrome Extension</a>
+                        <a className="start" href="https://docs.reiwallet.io/" target="_blank" rel="noreferrer">Get Started</a>
+
+                    <a className="download" href="https://chromewebstore.google.com/detail/rei-wallet/jacbgghlojlggfgljfhhlcddicacmbek" target="_blank" rel="noreferrer">Download Chrome Extension</a>
                 </BtnGroup>
             </BgBox>
 

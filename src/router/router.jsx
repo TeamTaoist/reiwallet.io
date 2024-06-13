@@ -7,7 +7,7 @@ import HomePage from "../pages/home.jsx";
 function RouterLink() {
     return (
         <Routes>
-            <Route path="/" element={<Navigate to="/home#home" />}/>
+            <Route path="/" element={<HomePage />}/>
             <Route path="/privacy" element={<Privacy />}/>
             <Route path="/home" element={<HomePage />}/>
         </Routes>
