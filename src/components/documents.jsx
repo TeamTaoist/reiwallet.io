@@ -135,7 +135,7 @@ const LftBox = styled.div`
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
     }
-    button{
+    a{
         background: #46a96a;
         border: 0;
         border-radius: 20px;
@@ -231,7 +231,7 @@ export default function Documents() {
                     blockchains, suggest that the user sign messages and transactions, and perform other functions on
                     REI Wallet from multiple dapp platforms.
                 </div>
-                <button>Let's start  &gt;</button>
+                <a href="https://docs.reiwallet.io/" target="_blank" rel="noreferrer">Let's start  &gt;</a>
             </LftBox>
             <UlBox>
                 <li>
