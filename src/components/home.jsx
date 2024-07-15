@@ -123,15 +123,15 @@ export default function Home(){
                 <TipsBox>With REI Wallet installed, start enjoying the convenience of tracking and managing all your CKB assets
                     in one place.</TipsBox>
                 <FlexBox>
-                    <a href="#home"><img src={Twitter} alt=""/></a>
-                    <a href="#home"><img src={Discord} alt=""/></a>
+                    {/* <a href="#home"><img src={Twitter} alt=""/></a>
+                    <a href="#home"><img src={Discord} alt=""/></a> */}
                     <a href="https://t.me/reiwallet" target="_blank"><img src={Telegram} alt=""/></a>
-                    <a href="#home"><img src={Medium} alt=""/></a>
+                    {/* <a href="#home"><img src={Medium} alt=""/></a> */}
                 </FlexBox>
                 <BtnGroup>
                         <a className="start" href="https://docs.reiwallet.io/" target="_blank" rel="noreferrer">Get Started</a>
 
-                    <a className="download" href="https://chromewebstore.google.com/detail/rei-wallet/jacbgghlojlggfgljfhhlcddicacmbek" target="_blank" rel="noreferrer">Download Chrome Extension</a>
+                    <a className="download" href="https://chromewebstore.google.com/detail/rei-wallet/jacbgghlojlggfgljfhhlcddicacmbek?utm_source=officialsite&utm_medium=cpc&utm_campaign=default_campaign" target="_blank" rel="noreferrer">Download Chrome Extension</a>
                 </BtnGroup>
             </BgBox>
 
